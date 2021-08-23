@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link type="text/css" rel="stylesheet" href="Estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type = "text/javascript" src = "Persona.js"> </script>
+    <script type = "text/javascript" src = "Empleado.js"> </script>
+    <script type = "text/javascript" src = "Manejadora.js"> </script>
+    <title>Document</title>
+</head>
+<body> 
+    <div id="container">
+        <div class="formContainer" id="formContainer">
+        <label for="legajo" class="formLabel">Legajo</label>
+        <br>
+        <input type="number" name="legajo" id="legajo" class="formInput" value="legajo">
+        <br>
+        <label for="Nombre" class="formLabel">Nombre</label>
+        <br>
+        <input type="text" name="Nombre" id="nombre" class="formInput">
+        <br>
+        <label for="Apellido" class="formLabel">Apellido</label>
+        <br>
+        <input type="text" name="Apellido" id="apellido" class="formInput">
+        <br>
+        <label for="Edad" class="formLabel">Edad</label>
+        <br>
+        <input type="number" name="Edad" id="edad" class="formInput">
+        <br>
+        <select name="horario" id="horario">
+            <option value="Mañana">Mañana</option>
+            <option value="Tarde">Tarde</option>
+        </select>
+            <div>
+            <input type="button" id="btnModificar" value="Modificar" class="formBtn">
+            <input type="button" id="btnAgregar" value="Agregar" class="formBtn" >
+            </div>
+        </div>
+    </div> 
+    <div id="divFiltros">
+        <div id="formFiltros">
+            <select name="FiltroPersona" id="filtroPersona">
+                <option value="todos">Todos</option>
+                <option value="Mañana">Mañana</option>
+                <option value="Tarde">Tarde</option>
+            </select>
+            <input type="button" id="btnFiltrar" value="Filtrar">
+            <label for="PromedioEdad" id="promedioEdadLabel">Promedio de Edad</label>
+            <input type="text" name="PromedioEdad" id="promedioEdad">
+            <button id="btnPromedio">Calcular Promedio</button>
+        </div>
+    </div>
+    <div id="divMostrar">
+        <button id="btnNyA" class="btnMostrar">Mostrar solo Nombre y Apellido</button>
+        <button id="btnMostrarTodo" class="btnMostrar">Mostrar Todo</button>
+    </div>
+    <div>
+        <h2>Listado De Empleados</h2>
+        <table id="table">
+            <thead id="thead">
+                <tr>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

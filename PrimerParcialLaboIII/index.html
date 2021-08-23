@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial - Agustin Clas</title>
+    <script type = "text/javascript" src = "./js/abm.js"> </script>
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <div id="divGeneral">
+        <table id="tabla">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cuatrimestre</th>
+                    <th>Fecha final</th>
+                    <th>Turno</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpoTabla">
+            </tbody>
+        </table>
+        <br>
+        <div id=materia hidden> 
+                <label for="Nombre">Nombre</label>
+                <br>
+                <input type="text" name="Nombre" id="nombre">
+                <br>
+                <label for="Cuatrimestre">Cuatrimestre</label>
+                <br>
+                <select name="Cuatrimestre" id="cuatrimestre" disabled=true;>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <label for="fechaFinal">Fecha Final</label>
+                <br>
+                <input type="date" name="fechaFinal" id="fechaFinal">
+                <br>
+                <div>
+                    <label for="mañana" class="Turno">
+                        <input type="radio" id="mañana" name="Turno" value="Mañana">Mañana</label>
+                    <label for="tarde" class="Turno">
+                        <input type="radio" id="tarde" name="Turno" value="tarde" >Tarde</label>
+                </div>      
+                <input type="button" id="btnModificar" value="Modificar">
+                <input type="button" id="btnEliminar" value="Eliminar">
+        </div>
+        <div id="spinner"></div>   
+    </div>
+</body>
+</html>

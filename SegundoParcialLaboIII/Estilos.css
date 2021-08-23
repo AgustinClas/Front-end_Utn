@@ -1,0 +1,186 @@
+body{
+    background: rgb(246, 163, 163);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    display: none;
+}
+
+.formContainer{
+    margin: auto;
+    top: 135px;
+    right: 33%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(241, 83, 83);
+    padding: 20px;
+    border-collapse: 80%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: solid 2px black;
+}
+
+.formBtn{
+    width: 20%;
+    background-color:rgb(246, 16, 16);
+    color: white;
+    padding: 10px 24px;
+    margin: 8px 0;
+    border: solid 2px black;
+    border-radius: 4px;
+    cursor: pointer;
+    float:center;
+}
+
+.formInput{
+    width: 20% ;
+    height: 1px ;
+    padding: 7px 18px ;
+    margin: 7px 0 ;
+    display: inline-block ;
+    border-radius: 4px ;
+    box-sizing: border-box ;
+    border: solid 2px black;
+}
+
+.formLabel{
+    font-size:17px;
+}
+
+#horario{
+    width: 20% ;
+    padding: 7px 18px ;
+    margin: 7px 0 ;
+    border-radius: 4px ;
+    box-sizing: border-box ;
+    border: solid 2px black;
+}
+
+#divFiltros{
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#formFiltros{
+    margin: auto;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(241, 83, 83);
+    padding: 20px;
+    border-collapse: 80%;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: solid 2px black;
+}
+
+#btnFiltrar, #filtroPersona{
+    width: 13%;
+    justify-self: center;
+    border: solid 2px black;
+    background-color: rgb(246, 163, 163);
+    border-radius: 4px;
+    cursor: pointer;
+    float:center;
+}
+
+#filtroPersona{
+     margin-left: 0%;
+}
+
+#btnFiltrar{
+    margin-right: 2%;
+}
+
+#divMostrar{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#promedioEdadLabel{
+    font-size: 19px;
+    padding-left: 2%;
+    font-weight: 900;
+}
+
+#promedioEdad{
+    height: 6px;
+    width: 5%;
+    padding: 7px;
+    margin: 7px;
+    border-radius: 4px ;
+    border: solid 2px black;
+}
+
+#btnPromedio{
+    border: solid 2px black;
+    border-radius: 4px;
+    cursor: pointer;
+    float:center;
+    background-color: rgb(246, 163, 163);
+}
+
+.btnMostrar{
+    width: 20%;
+    height: 55px;
+    background-color:rgb(241, 83, 83);
+    color: white;
+    margin: 8px;
+    border: solid 2px black;
+    cursor: pointer;
+    float:center;
+    border-radius: 4px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    justify-content: center;
+    justify-self: center;
+}
+
+thead{
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+tbody{
+    text-align: center;
+    background-color: rgb(241, 83, 83);
+}
+
+h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(241, 83, 83);
+    border: 2px solid #000000;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.btnModificar, .btnEliminar{
+    background-color:rgb(246, 16, 16);
+    color: white;
+    border: solid 2px black;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    float:center;
+}
+
+
+
